@@ -1,0 +1,179 @@
+cv:
+  name: Furkan Karakas
+  location: Zurich, Switzerland
+  email: furkan.karakas.95@outlook.com
+  phone: tel:+41 77 915 99 35
+  website: https://furkankarakas.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: furkan-karakas
+    - network: GitHub
+      username: FurkanKarakas
+  sections:
+    summary:
+      - Software engineer with 4+ years of experience developing full-stack applications, data integration solutions and test automation.
+        Strong background in Java, Python, React.js, and SQL/databases.
+        Adept at cloud technologies like Docker and CI/CD pipelines.
+        Earned MSc. in Communication Systems from EPFL with 5.20/6.0 GPA.
+    technologies:
+      - label: Programming
+        details: Java,
+          Python,
+          JavaScript (React.js),
+          SQL,
+          Bash,
+          C++,
+          UI Automation (Appium, Selenium)
+      - label: Databases
+        details: PostgreSQL,
+          OracleDB,
+          Data Warehousing
+      - label: Cloud/DevOps
+        details: Docker,
+          GitLab CI/CD,
+          Talend (ETL)
+      - label: Languages
+        details: "English: C1, German: C1, Turkish: Native"
+      - label: Other
+        details: JIRA,
+          HPQC,
+          Graph Neural Networks,
+          VaR Computation,
+          Time Series Analysis
+    experience:
+      - company: PostFinance AG (External)
+        position: Software Test Engineer
+        location: Zofingen, Switzerland
+        start_date: 2024-05
+        end_date: present
+        highlights:
+          - Automated independent end-to-end tests of the company web
+            and mobile applications on the system level
+            by means of black-box testing using an internal test automation toolbox
+            built on top of Appium and Selenium
+          - Worked in four releases in a year using agile methodology
+          - Used the issue tracking service JIRA and the application lifecycle management tool HPQC
+      - company: ZZ Vermögensberatung (Schweiz) AG
+        position: Financial Software Engineer
+        location: Vitznau, Switzerland
+        start_date: 2022-07
+        end_date: 2024-04
+        highlights:
+          - Developed internal "Knowledge Base" web app using React.js,
+            Spring Boot, and PostgreSQL, streamlining business processes for 25+ colleagues
+          - Built automated CI/CD pipelines using GitLab runners in Docker for seamless
+            application deployment to prod/dev environments, over 80% improvement of build time
+            of the web application
+          - Created in-house Value-at-Risk computation framework in Python integrated with
+            company data warehouse using Pandas/NumPy
+          - Parsed XML files to identify data load errors in Java,
+            enabling team to review and correct issues daily
+      - company: Hoffmann-La Roche
+        position: Master's Thesis Student
+        location: Basel, Switzerland
+        start_date: 2021-09
+        end_date: 2022-02
+        highlights:
+          - Conducted literature review on corporate skills management using machine learning
+          - Implemented and evaluated graph neural network method to learn skill representations
+          - Achieved 72% F1-score on skill prediction task by collaborating cross-functionally
+      - company: ABB Corporate Research Center
+        position: Student Internship
+        location: Baden, Switzerland
+        start_date: 2020-07
+        end_date: 2020-12
+        highlights:
+          - Designed Docker containers interacting on Hyperledger Fabric blockchain to store IoT sensor data
+          - Built React.js front-end application interfacing with the blockchain network
+    education:
+      - institution: Swiss Federal Institute of Technology Lausanne (EPFL)
+        location: Lausanne, Switzerland
+        area: Computer and Communication Sciences
+        degree: Msc.
+        start_date: 2019-09
+        end_date: 2022-04
+        highlights:
+          - "GPA: 5.20/6.00"
+          - "**Coursework:** Advanced probability and applications,
+            Cryptography and security,
+            Distributed algorithms,
+            TCP/IP networking,
+            Deep learning,
+            Information security and privacy"
+      - institution: Boğaziçi University
+        location: Istanbul, Türkiye
+        area: Electrical Engineering & Mathematics
+        degree: Bsc.
+        start_date: 2015-02
+        end_date: 2019-07
+        highlights:
+          - "GPA: 3.59/4.00"
+          - Graduated with high honors
+          - "**Coursework:** Pure mathematics and electrical engineering courses"
+    # publications:
+    #   - title: 3D Finite Element Analysis of No-Insulation Coils
+    #     authors:
+    #       - Frodo Baggins
+    #       - "***John Doe***"
+    #       - Samwise Gamgee
+    #     doi: 10.1109/TASC.2023.3340648
+    #     date: 2004-01
+    # projects:
+    #   - name: Multi-User Drawing Tool
+    #     date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
+    #     highlights:
+    #       - Developed an electronic classroom where multiple users
+    #         can simultaneously view and draw on a "chalkboard"
+    #         with each person's edits synchronized
+    #       - "Tools Used: C++, MFC"
+    #   - name: Synchronized Desktop Calendar
+    #     date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
+    #     highlights:
+    #       - Developed a desktop calendar with globally shared
+    #         and synchronized calendars, allowing users to schedule
+    #         meetings with other users
+    #       - "Tools Used: C#, .NET, SQL, XML"
+    #   - name: Custom Operating System
+    #     date: 2002
+    #     highlights:
+    #       - Built a UNIX-style OS with a scheduler, file system,
+    #         text editor, and calculator
+    #       - "Tools Used: C"
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: "#004f90"
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ""
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in: []
