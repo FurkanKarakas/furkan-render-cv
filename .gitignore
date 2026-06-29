@@ -2,3 +2,5 @@
 !*.yaml
 !README.md
 !.gitignore
+!rendercv_output/
+!rendercv_output/*.pdf

@@ -1,29 +1,32 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Furkan Karakas
+  headline:
   location: Zurich, Switzerland
   email: furkan.karakas.95@outlook.com
-  phone: tel:+41 77 915 99 35
+  photo: images/profile.jpg
+  phone: +41 76 609 17 98
   website: https://furkankarakas.github.io/
   social_networks:
     - network: LinkedIn
       username: furkan-karakas
     - network: GitHub
       username: FurkanKarakas
+  custom_connections:
   sections:
     summary:
-      - Software engineer with 4+ years of experience developing full-stack applications, data integration solutions and test automation.
-        Strong background in Java, Python, React.js, and SQL/databases.
+      - Software and quality assurance engineer with 5+ years of experience in software testing, test automation, developing full-stack applications, data integration solutions.
+        Strong background in Java, Python, React.js, SQL/databases and test automation frameworks such as Selenium, Playwright and Appium.
         Adept at cloud technologies like Docker and CI/CD pipelines.
         Earned MSc. in Communication Systems from EPFL with 5.20/6.0 GPA.
     technologies:
       - label: Programming
         details: Java,
+          UI Automation (Appium, Selenium, Playwright),
           Python,
-          JavaScript (React.js),
-          SQL,
+          TypeScript (React.js),
           Bash,
-          C++,
-          UI Automation (Appium, Selenium)
+          C++
       - label: Databases
         details: PostgreSQL,
           OracleDB,
@@ -40,10 +43,11 @@ cv:
           Graph Neural Networks,
           VaR Computation,
           Time Series Analysis
+
     experience:
-      - company: PostFinance AG (External)
-        position: Software Test Engineer
-        location: Zofingen, Switzerland
+      - company: PostFinance AG
+        position: Software Test Automation Engineer
+        location: Bern, Switzerland
         start_date: 2024-05
         end_date: present
         highlights:
@@ -51,6 +55,8 @@ cv:
             and mobile applications on the system level
             by means of black-box testing using an internal test automation toolbox
             built on top of Appium and Selenium
+          - Detected and reported countless bugs and issues in the diverse frontend and backend systems of the company,
+            contributing to the overall quality of the applications
           - Worked in four releases in a year using agile methodology
           - Used the issue tracking service JIRA and the application lifecycle management tool HPQC
       - company: ZZ Vermögensberatung (Schweiz) AG
@@ -85,6 +91,7 @@ cv:
         highlights:
           - Designed Docker containers interacting on Hyperledger Fabric blockchain to store IoT sensor data
           - Built React.js front-end application interfacing with the blockchain network
+
     education:
       - institution: Swiss Federal Institute of Technology Lausanne (EPFL)
         location: Lausanne, Switzerland
@@ -94,6 +101,7 @@ cv:
         end_date: 2022-04
         highlights:
           - "GPA: 5.20/6.00"
+          - "**Graduation thesis:** Graph Convolutional Networks for Skills Management in Large Organizations"
           - "**Coursework:** Advanced probability and applications,
             Cryptography and security,
             Distributed algorithms,
@@ -108,72 +116,266 @@ cv:
         end_date: 2019-07
         highlights:
           - "GPA: 3.59/4.00"
-          - Graduated with high honors
+          - Admitted to Boğaziçi University (BOUN) by ranking 300th among 2.5 million candidates **(top 0.012%)** in the national entrance exam
+          - Graduated with double major in maths and electrical engineering with high honors
           - "**Coursework:** Pure mathematics and electrical engineering courses"
-    # publications:
-    #   - title: 3D Finite Element Analysis of No-Insulation Coils
-    #     authors:
-    #       - Frodo Baggins
-    #       - "***John Doe***"
-    #       - Samwise Gamgee
-    #     doi: 10.1109/TASC.2023.3340648
-    #     date: 2004-01
+      - institution: Istanbul High School
+        location: Istanbul, Türkiye
+        area: High School Diploma
+        start_date: 2009-09
+        end_date: 2014-08
+        highlights:
+          - Admitted through high-ranking national exam performance
+          - Completed a rigorous dual-curriculum education primarily taught in German
+          - Awarded both the Turkish high school diploma and the Abitur, granting direct admission to universities in Germany, Switzerland, and worldwide
+
     # projects:
-    #   - name: Multi-User Drawing Tool
-    #     date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
+    #   - name: "[FlashInfer](https://github.com/)"
+    #     date:
+    #     start_date: 2023-01
+    #     end_date: present
+    #     location:
+    #     summary: Open-source library for high-performance LLM inference kernels
     #     highlights:
-    #       - Developed an electronic classroom where multiple users
-    #         can simultaneously view and draw on a "chalkboard"
-    #         with each person's edits synchronized
-    #       - "Tools Used: C++, MFC"
-    #   - name: Synchronized Desktop Calendar
-    #     date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
+    #       - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+    #       - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+    #   - name: "[NeuralPrune](https://github.com/)"
+    #     date: "2021"
+    #     start_date:
+    #     end_date:
+    #     location:
+    #     summary: Automated neural network pruning toolkit with differentiable masks
     #     highlights:
-    #       - Developed a desktop calendar with globally shared
-    #         and synchronized calendars, allowing users to schedule
-    #         meetings with other users
-    #       - "Tools Used: C#, .NET, SQL, XML"
-    #   - name: Custom Operating System
-    #     date: 2002
-    #     highlights:
-    #       - Built a UNIX-style OS with a scheduler, file system,
-    #         text editor, and calculator
-    #       - "Tools Used: C"
+    #       - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
+    #       - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
+    # publications:
+    #   - title: "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models"
+    #     authors:
+    #       - "*John Doe*"
+    #       - Sarah Williams
+    #       - David Park
+    #     summary:
+    #     doi: 10.1234/neurips.2023.1234
+    #     url:
+    #     journal: NeurIPS 2023
+    #     date: 2023-07
+    #   - title: Neural Architecture Search via Differentiable Pruning
+    #     authors:
+    #       - James Liu
+    #       - "*John Doe*"
+    #     summary:
+    #     doi: 10.1234/neurips.2022.5678
+    #     url:
+    #     journal: NeurIPS 2022, Spotlight
+    #     date: 2022-12
+    #   - title: Multi-Agent Reinforcement Learning with Emergent Communication
+    #     authors:
+    #       - Maria Garcia
+    #       - "*John Doe*"
+    #       - Tom Anderson
+    #     summary:
+    #     doi: 10.1234/icml.2022.9012
+    #     url:
+    #     journal: ICML 2022
+    #     date: 2022-07
+    #   - title: On-Device Model Compression via Learned Quantization
+    #     authors:
+    #       - "*John Doe*"
+    #       - Kevin Wu
+    #     summary:
+    #     doi: 10.1234/iclr.2021.3456
+    #     url:
+    #     journal: ICLR 2021, Best Paper Award
+    #     date: 2021-05
+    # selected_honors:
+    #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
+    #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
+    #   - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
+    #   - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
+    #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
 design:
   theme: classic
-  font: Source Sans 3
-  font_size: 10pt
-  page_size: letterpaper
-  color: "#004f90"
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  seperator_between_connections: ""
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in: []
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV
