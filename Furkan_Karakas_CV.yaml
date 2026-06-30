@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Furkan Karakas
-  headline:
+  headline: Software and Quality Assurance Engineer
   location: Zurich, Switzerland
   email: furkan.karakas.95@outlook.com
   photo: images/profile.jpg
@@ -13,6 +13,9 @@ cv:
     - network: GitHub
       username: FurkanKarakas
   custom_connections:
+    - fontawesome_icon: passport
+      placeholder: "Work permit: B"
+      url: null
   sections:
     summary:
       - Software and quality assurance engineer with 5+ years of experience in software testing, test automation, developing full-stack applications, data integration solutions.
@@ -241,17 +244,17 @@ design:
   # links:
   #   underline: false
   #   show_external_link_icon: false
-  # header:
-  #   alignment: center
-  #   photo_width: 3.5cm
-  #   photo_position: left
-  #   photo_space_left: 0.4cm
-  #   photo_space_right: 0.4cm
-  #   space_below_name: 0.7cm
-  #   space_below_headline: 0.7cm
-  #   space_below_connections: 0.7cm
-  #   connections:
-  #     phone_number_format: national
+  header:
+    #   alignment: center
+    #   photo_width: 3.5cm
+    #   photo_position: left
+    #   photo_space_left: 0.4cm
+    #   photo_space_right: 0.4cm
+    #   space_below_name: 0.7cm
+    #   space_below_headline: 0.7cm
+    #   space_below_connections: 0.7cm
+    connections:
+      phone_number_format: international
   #     hyperlink: true
   #     show_icons: true
   #     display_urls_instead_of_usernames: false
