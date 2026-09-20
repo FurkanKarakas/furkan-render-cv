@@ -25,7 +25,7 @@ cv:
     technologies:
       - label: Programming
         details: Java,
-          UI Automation (Appium, Selenium, Playwright),
+          Automation (Appium, Selenium, Playwright, API),
           Python,
           TypeScript (React.js),
           Bash,
@@ -41,7 +41,8 @@ cv:
       - label: Languages
         details: "English: C1, German: C1, Turkish: Native"
       - label: Other
-        details: JIRA,
+        details: REST API (OpenAPI),
+          JIRA,
           HPQC,
           Graph Neural Networks,
           VaR Computation,
