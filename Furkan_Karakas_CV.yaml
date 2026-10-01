@@ -14,7 +14,7 @@ cv:
       username: FurkanKarakas
   custom_connections:
     - fontawesome_icon: passport
-      placeholder: "Work permit: B"
+      placeholder: "Work permit: C"
       url: null
   sections:
     summary:
